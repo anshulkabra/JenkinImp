@@ -6,9 +6,6 @@ import android.util.Patterns;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * Created by sachin on 20/11/16.
- */
 public class Utils {
     private static Pattern pattern;
     private static Matcher matcher;

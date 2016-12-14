@@ -15,13 +15,13 @@ public class ExampleUnitTest {
     public void addition_isCorrect() throws Exception {
         assertEquals(4, 2 + 2);
     }
-    @Test
+   /* @Test
     public void emailValidateTest(){
         boolean actual= Utils.isValidEmail("sachin@gmail.com");
         boolean expected=true;
         assertEquals("entered email is false",expected,actual);
 
-    }
+    }*/
 
 
     @Test
