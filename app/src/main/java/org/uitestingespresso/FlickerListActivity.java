@@ -50,7 +50,7 @@ public class FlickerListActivity extends AppCompatActivity {
         listView.setLayoutManager(linearLayoutManager);
         listView.setAdapter(flickerListAdapter);
         ApiInterface apiInterface= RetrofitAdapter.getApiService();
-        Call<FlickerResponse> flickerResponseCall=apiInterface.getFlikerImages("mount,rainier","any","json",0);
+        Call<FlickerResponse> flickerResponseCall=apiInterface.getFlikerImages("mount,rainier","any","json");
         mIdlingResource.setIdleState(false);
         flickerResponseCall.enqueue(new Callback<FlickerResponse>() {
             @Override
